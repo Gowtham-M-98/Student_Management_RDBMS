@@ -41,6 +41,18 @@ Records the grades assigned to students per enrollment.
 
 ---
 
+### Queries and Analysis
+
+The project includes various SQL queries and data analysis tasks to extract valuable insights from the Students data. Some of the key queries implemented include:
+
+**1. JOIN** - To retrieve data from multiple tables in a relational database, the JOIN clause can be used to combine records from **Students, Enrollments, Courses, and Grades** tables for the details about the students.
+
+**2. VIEW** - Created a VIEW that provides a consolidated report of student academic records.
+
+**3. SUBQUERY** - To fetch students who got an 'A' grade in the academic, a SUBQUERY is used.
+
+**4. STORED PROCEDURE** - To count the enrollement as per the course, a stored procedure is used.
+
 ## Database Schema Overview
 
 ```plaintext
